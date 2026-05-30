@@ -1,0 +1,12 @@
+# Исключаем всё что не нужно в образе
+mlruns/
+models/
+artifacts/
+*.png
+*.pkl
+notebooks/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
