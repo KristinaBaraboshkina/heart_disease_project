@@ -71,12 +71,12 @@ Raw Data (303 × 13)
         ▼
 ┌─────────────────────────────────────────┐
 │          ColumnTransformer              │
-│  ┌──────────────────┐  ┌─────────────┐ │
-│  │  Numeric (7)      │  │  Categ. (6) │ │
-│  │ SimpleImputer     │  │ SimpleImputer│ │
-│  │   (median)        │  │ (most_freq) │ │
-│  │ StandardScaler    │  │ OneHotEncoder│ │
-│  └──────────────────┘  └─────────────┘ │
+│  ┌──────────────────┐  ┌──────────────┐ │
+│  │  Numeric (7)     │  │  Categ. (6)  │ │
+│  │ SimpleImputer    │  │ SimpleImputer│ │
+│  │   (median)       │  │ (most_freq)  │ │
+│  │ StandardScaler   │  │ OneHotEncoder│ │
+│  └──────────────────┘  └──────────────┘ │
 │         7 features          16 features │
 │              └────────┬────────┘        │
 │                  23 features            │
